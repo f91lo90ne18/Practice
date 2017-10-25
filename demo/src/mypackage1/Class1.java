@@ -24,6 +24,7 @@ public class Class1
     for(int i=1; i<=10000000; i++) 
     {
       sum  = sum + i;
+      System.out.print(i);
     }
     long endTime = System.currentTimeMillis();
     
