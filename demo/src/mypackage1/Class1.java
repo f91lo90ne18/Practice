@@ -23,7 +23,8 @@ public class Class1
     long beginTime = System.currentTimeMillis();
     for(int i=1; i<=10000000; i++) 
     {
-      System.out.print("wrong push");
+      sum  = sum + i;
+      System.out.print(i);
     }
     long endTime = System.currentTimeMillis();
     
