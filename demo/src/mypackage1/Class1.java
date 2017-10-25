@@ -25,6 +25,7 @@ public class Class1
     {
       sum  = sum + i;
       System.out.print(i);
+      System.out.print("deme branch");
     }
     long endTime = System.currentTimeMillis();
     
